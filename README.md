@@ -6,3 +6,4 @@ AI OSS실습 2025
 OSC test
 
 수정 README.md
+22
