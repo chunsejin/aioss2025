@@ -7,13 +7,6 @@ def messy_calc(a, b, c):
     else:
         res = b - a
 
-    if c > 10:
-        res = res / 2
-    elif c < 5:
-        res = res * 3
-    else:
-        res = res + c
-
     return res
 
 # Messy usage examples
