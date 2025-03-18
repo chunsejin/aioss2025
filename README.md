@@ -1,6 +1,5 @@
 # ossAI
 
-# Todo
 :rocket:
 
 # 감사의 글
