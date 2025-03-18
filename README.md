@@ -6,3 +6,5 @@ AI OSS실습 2025
 OSC test
 
 Hello
+
+Hi
