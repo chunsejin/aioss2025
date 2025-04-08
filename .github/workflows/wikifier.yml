@@ -28,4 +28,4 @@ jobs:
       - name: Run wikifier script
         run: python .github/scripts/wikifier_mapper.py
         env:
-          WIKIFIER: ${{ secrets.WIKIFIER_API_KEY }}
+          WIKIFIER_API_KEY: ${{ secrets.WIKIFIER_API_KEY }}
