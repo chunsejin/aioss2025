@@ -5,4 +5,3 @@ Numpy
 blockchain
 OAuth
 Github
-Gradient
