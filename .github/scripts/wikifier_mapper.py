@@ -42,7 +42,9 @@ def call_wikifier(text):
         return {}
 
 def main():
+    print(API_URL)
     print(API_KEY)
+    
     all_keywords = set()
     for file in get_modified_files():
         print(f"Processing: {file}")
