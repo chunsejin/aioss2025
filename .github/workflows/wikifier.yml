@@ -25,6 +25,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Print env
+        run: echo "KEY: $WIKIFIER_API_KEY"
+        env:
+          WIKIFIER_API_KEY: ${{ secrets.WIKIFIER_API_KEY }}
+
       - name: Run wikifier script
         run: python .github/scripts/wikifier_mapper.py
         env:
