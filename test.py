@@ -3,5 +3,3 @@ GraphQL
 TensorFlow
 Numpy
 blockchain
-OAuth
-Github
