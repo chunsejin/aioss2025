@@ -1,1 +1,7 @@
-# new file
+kubernetes
+GraphQL
+TensorFlow
+Numpy
+blockchain
+OAuth
+Github
