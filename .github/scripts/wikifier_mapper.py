@@ -7,6 +7,9 @@ import json
 API_URL = "http://www.wikifier.org/annotate-article"
 API_KEY = os.environ.get("WIKIFIER_API_KEY")
 
+if not API_KEY:
+    print("WIKIFIER_API_KEY is not set.")
+
 def get_modified_files():
     result = subprocess.run(
         ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
