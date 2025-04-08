@@ -24,9 +24,15 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests
-
+          
       - name: Print env
-        run: echo "KEY: $WIKIFIER_API_KEY"
+        run: |
+          if [ -z "$WIKIFIER_API_KEY" ]; then
+            echo "❌ API key is missing."
+            exit 1
+          else
+            echo "✅ API key is set."
+          fi
         env:
           WIKIFIER_API_KEY: ${{ secrets.WIKIFIER_API_KEY }}
 
